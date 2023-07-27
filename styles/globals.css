@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [data-nextjs-scroll-focus-boundary] {
+    display: contents;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -11,6 +25,3 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
